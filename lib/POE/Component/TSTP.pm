@@ -1,11 +1,11 @@
-# $Id: TSTP.pm,v 1.2 2002/12/16 16:07:41 matt Exp $
+# $Id: TSTP.pm,v 1.3 2002/12/17 18:10:21 matt Exp $
 
 package POE::Component::TSTP;
 use strict;
 use POE;
 use vars qw($VERSION);
 
-$VERSION = '0.01';
+$VERSION = '0.02';
 
 sub create {
     my $class = shift;
